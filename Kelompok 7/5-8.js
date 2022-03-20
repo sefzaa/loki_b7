@@ -6,7 +6,7 @@ limadelapan.listen (3000,function(){
 });
 
 limadelapan.get("/", function(req,res){
-    res.send("Tugas Besar Pemograman Web")
+    res.send("Kelompok-7 Tugas Besar Pemograman Web")
 })
 
 
