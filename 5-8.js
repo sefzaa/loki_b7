@@ -6,12 +6,18 @@ limadelapan.listen (3000,function(){
 });
 
 limadelapan.get("/", function(req,res){
-    res.send("Kelompok-7 Tugas Besar Pemograman Web")
+    res.send("Kelompok 7 Pweb")
+    
 })
 
 
 limadelapan.get("/cetak_laporan", function(req,res){
-    res.send("Cetak Laporan")
+    let pesan = {
+        "message" : "Cetak Laporan",
+        "code error" : 200
+
+    }
+    res.json(pesan);
 })
 
 limadelapan.get("/tambah_rps", function(req,res){

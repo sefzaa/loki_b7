@@ -6,7 +6,14 @@ no21sampai23.listen (3000,function(){
 });
 
 no21sampai23.get("/research", function(req,res){
-    res.send("Data berhasil ditampilkan")
+    let pencarian ={
+        "Message" : "Mencari Perkuliahan",
+        "MataKuliah" : " ",
+        "Jadwal" : " ",
+        "status" : "200"
+
+    }
+    res.json(pencarian)
 })
 
 no21sampai23.get("/information", function(req,res){
