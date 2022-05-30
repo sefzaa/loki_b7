@@ -5,10 +5,18 @@ rout.listen (3000, function(){
     console.log("Server Available")
 });
 
+rout.get ("/penilaian", function(req,res){
+    let lihat = {
+        "message" : "ini penilaian",
+        "status" : 200
+    }
+    res.json(lihat);
+});
+
 rout.post ("/penilaian", function(req,res){
     let tambah = {
         "message" : "penilaian berhasil ditambah",
-        "status" : 0
+        "status" : 200
     }
     res.json(tambah);
 });
