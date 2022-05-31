@@ -1,53 +1,22 @@
-// Import express
-import express from "express";
-// Import cors
-import cors from "cors";
-// Import connection
-import db from "./config/database.js";
-// Import router
-import router from "./routes/routes.js";
- 
-// Init express
+
+const express = require ('express');
 const app = express();
-// use express json
-app.use(express.json());
-// use cors
-app.use(cors());
- 
-// Testing database connection 
-try {
-    await db.authenticate();
-    console.log('Connection has been established successfully.');
-} catch (error) {
-    console.error('Unable to connect to the database:', error);
-}
- 
-// use router
-app.use(router);
- 
-// listen on port
-app.listen(5000, () => console.log('Server running at http://localhost:5000'));
+const port = 1234
 
 
-// const express = require ('express');
-// const app = express();
-// const port = 1234
+const auth = require('.//router/login')
+app.use('/auth', auth);
 
 
-// const auth = require('./router/login');
-// app.use('/auth', auth);
-
-
-// app.get("/", function(req, res){
-//     res.send("Kelompok 7 Pemograman Web")
+app.get("/", function(req, res){
+    res.send("Kelompok 7 Pemograman Web")
     
-// })
+})
 
 
-
-// app.listen (port,() => {
-//     console.log('Server Ready in port 1234')
-// });
+app.listen (port,() => {
+    console.log('Server Ready in port 1234')
+});
 
 
 
