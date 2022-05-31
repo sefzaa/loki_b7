@@ -21,5 +21,7 @@ var user = db.define('users', {
     timestamps      : false
 })
 
+// user.sycn({});
+
 // user.removeAttribute('updatedAt', 'createdAt')
 module.exports = user

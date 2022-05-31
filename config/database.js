@@ -1,11 +1,11 @@
 // import sequelize
-import { Sequelize } from "sequelize";
+const sequelize = require ("sequelize");
  
 // create connection
-const db = new Sequelize('sequelize_db', 'root', '', {
+const db = new sequelize('loki', 'root', '', {
     host: 'localhost',
     dialect: 'mysql'
 });
  
 // export connection
-export default db;
+module.exports = db;
