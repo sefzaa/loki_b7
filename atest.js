@@ -20,7 +20,7 @@ app.get("/", function(req, res){
     
 })
 
-// app.post ("/register", async (req, res) =>{
+//   app.post ("/register", async (req, res) =>{
 //     try {
 //         const {email , password}= req.body
 //         const newUser = new user({

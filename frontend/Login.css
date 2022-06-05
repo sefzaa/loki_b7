@@ -5,7 +5,7 @@
   /* config.css */
   
   :root {
-    --baseColor: #606468;
+    --baseColor: #fffdfd;
   }
   
   /* helpers/align.css */
@@ -57,7 +57,7 @@
   :root {
     --htmlFontSize: 100%;
   
-    --bodyBackgroundColor: #2c3338;
+    --bodyBackgroundColor: #fcfeff;
     --bodyColor: var(--baseColor);
     --bodyFontFamily: "Open Sans";
     --bodyFontFamilyFallback: sans-serif;
@@ -149,14 +149,14 @@
     --loginBorderRadus: 0.25rem;
     --loginColor: #eee;
   
-    --loginInputBackgroundColor: #3b4148;
-    --loginInputHoverBackgroundColor: #434a52;
+    --loginInputBackgroundColor: #8a8d8f;
+    --loginInputHoverBackgroundColor: #9a9c9e;
   
-    --loginLabelBackgroundColor: #363b41;
+    --loginLabelBackgroundColor: #9a9c9e;
   
-    --loginSubmitBackgroundColor: #ea4c88;
+    --loginSubmitBackgroundColor: #0de149;
     --loginSubmitColor: #eee;
-    --loginSubmitHoverBackgroundColor: #d44179;
+    --loginSubmitHoverBackgroundColor: #0fce1b;
   }
   
   .login {

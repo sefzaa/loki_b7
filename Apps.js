@@ -4,23 +4,37 @@ const app = express();
 const port = 1234
 
 
+app.use (express.urlencoded({extended:true}));
 const auth = require('.//router/login')
 app.use('/auth', auth);
 
 
-app.get("/", function(req, res){
-    res.send("Kelompok 7 Pemograman Web")
+const db = require ("./config/database");
+const user = require("./models/users");
+
+db.authenticate().then(() => console.log ("Db terkoneksi"));
+
+
+
+//==============================
+
+// const auth = require('.//router/login')
+// app.use('/auth', auth);
+
+
+// app.get("/", function(req, res){
+//     res.send("Kelompok 7 Pemograman Web")
     
-})
+// })
 
 
-app.listen (port,() => {
-    console.log('Server Ready in port 1234')
-});
+// app.listen (port,() => {
+//     console.log('Server Ready in port 1234')
+// });
 
 
 
-
+//===================================
 
 // app.get("/cetak_laporan", function(req,res){
 //     let pesan = {
