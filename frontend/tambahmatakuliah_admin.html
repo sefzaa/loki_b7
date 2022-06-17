@@ -12,7 +12,7 @@
     <nav class="navbar">
         <div class="container-fluid">
             <a class="logo" href="#">
-                <img src="/css/assets/logo.png" alt="">
+                <img src="../frontend/css/assets/logo.png" alt="">
             </a>
           <div>
               <ul class="nav">
@@ -20,7 +20,7 @@
                       <a class="nav-link active" aria-current="page" href="matakuliah_admin.html">Mata Kuliah</a>
                   </li>
                   <li class="nav-label">
-                      <a class="nav-link" href="#">Pencarian</a>
+                      <a class="nav-link" href="#">Akun</a>
                   </li>
                   <li class="nav-label">
                       <a class="nav-link" href="#">Profil lulusan</a>
@@ -28,41 +28,79 @@
                   <li class="nav-label">
                       <a class="nav-link" href="#">Kurikulum</a>
                   </li>
+                  <form class="d-flex" role="search">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          NamaDosen
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="#">Log Out</a></li>
+                        </ul>
+                      </li>
+                  </form>
               </ul>
-              <form class="d-flex" role="search">
-                <li class="nav-item dropdown" style="right: 16vh;">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      NamaAdmin
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                      <li><a class="dropdown-item" href="#">Log Out</a></li>
-                    </ul>
-                  </li>
-            </form>
+              
        </div>
    </nav>
    <button class="btn-login labelTombol-login ">Upload RPS</button>
-   <p class="judul">RPS Pemrograman Web</p>
 
-   <p class="judul">Metode pelaksanaan perkuliahan dan alokasi waktu</p>
+   <p class="judul">RPS Pemrograman Web</p>
       <div>
-        <div class="desk17">
-          <label for="deskripsi2" class="form-label">Metode Pembelajaran dan Alokasi Waktu</label>
+        <p class="judul-input8">Data mata kuliah</p>
+        <div class="desk22">
+          <label for="deskripsi2" class="form-label">Nama</label>
           <input type="text" class="form-control" id="deskripsi2">
         </div>
-        <div class="desk18">
-          <label for="deskripsi2" class="form-label">Pengalaman Belajar Mahasiswa</label>
+        <div class="desk23">
+          <label for="deskripsi2" class="form-label">Kode</label>
           <input type="text" class="form-control" id="deskripsi2">
         </div>
-        <div class="desk19">
-          <label for="deskripsi2" class="form-label">Kriteria (Indikator) Penilaian</label>
+        <div class="desk24">
+          <label for="deskripsi2" class="form-label">Semester</label>
           <input type="text" class="form-control" id="deskripsi2">
         </div>
-        <div class="desk20">
-          <label for="deskripsi2" class="form-label">Bobot Penilan (%)</label>
+        <div class="desk25">
+          <label for="deskripsi2" class="form-label">SKS</label>
           <input type="text" class="form-control" id="deskripsi2">
         </div>
       </div>
+      <div>
+        <div class="desk26">
+          <label for="deskripsi1" class="form-label">Deskripsi mata kuliah</label>
+          <input type="text" class="form-control" id="deskripsi1">
+        </div>
+        <div class="desk27">
+          <label for="inputKodeCP" class="form-label">Dosen pengembang RPS</label>
+          <div class="dropdownkodecpl">
+            <button class="btn btn-secondary dropdown-toggle dropdown111 " type="button" id="inputKodeCP" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Pilih nama atau nip
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <p class="judul-input9">Capaian pembelajaran program studi</p>
+        <p class="form-label teks11">Catatan : S : Sikap; P : Pengetahuan; KU : Keterampilan Umum; KK : Keterampilan
+          Khusus
+        </p>
+        <div class="desk28">
+          <label for="deskripsi1" class="form-label">Deskripsi</label>
+          <input type="text" class="form-control" id="deskripsi1">
+        </div>
+        <div class="desk29">
+          <label for="assessment" class="form-label">Persentase (%)</label>
+          <input type="text" class="form-control" id="assessment">
+        </div>
+        <div class="desk30">
+          <button type="button" class="btn btn-primary tambah ">+</button>
+        </div>
+    </div>
+    
     <!-- <p class="judul">RPS Pemrograman Web</p>
 
     <p class="judul-input">Data Matakuliah</p>

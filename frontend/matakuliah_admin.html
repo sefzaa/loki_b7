@@ -12,7 +12,7 @@
     <nav class="navbar">
         <div class="container-fluid">
             <a class="logo" href="#">
-                <img src="/css/assets/logo.png" alt="">
+                <img src="../frontend/css/assets/logo.png" alt="">
             </a>
           <div>
               <ul class="nav">
@@ -20,7 +20,7 @@
                       <a class="nav-link active" aria-current="page" href="matakuliah_admin.html">Mata Kuliah</a>
                   </li>
                   <li class="nav-label">
-                      <a class="nav-link" href="pencarian_admin.html">Pencarian</a>
+                      <a class="nav-link" href="#">Akun</a>
                   </li>
                   <li class="nav-label">
                       <a class="nav-link" href="#">Profil lulusan</a>
@@ -28,19 +28,21 @@
                   <li class="nav-label">
                       <a class="nav-link" href="#">Kurikulum</a>
                   </li>
+                  <form class="d-flex" role="search">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          NamaDosen
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="#">Log Out</a></li>
+                        </ul>
+                      </li>
+                  </form>
               </ul>
-              <form class="d-flex" role="search">
-                <li class="nav-item dropdown" style="right: 16vh;">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      NamaAdmin
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                      <li><a class="dropdown-item" href="#">Log Out</a></li>
-                    </ul>
-                  </li>
-            </form>
+              
       </div>
   </nav>
+  <button class="btn-login1 labelTombol-login1 ">Tambah mata kuliah</button>
     <div class="container">
         <div class="mb-3">
           <label for="examplesearch" class="hasilpencarian2">Pencarian</label>
