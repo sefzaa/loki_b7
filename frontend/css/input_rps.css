@@ -1,0 +1,749 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #C0EDD4;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    overflow: auto;
+    overflow-x: hidden;
+  }
+
+.container-fluid{
+    position: absolute;
+    width: 100%;
+    height: 70px;
+    left: 0px;
+    top: 0px;
+
+    background: #ffffff;
+}
+
+.logo{
+    position: absolute;
+    width: 66.95px;
+    height: 49px;
+    left: 15px;
+    top: 11px;
+}
+
+.nav{
+    position: absolute;
+    width: 800px;
+    height: 70px;
+    left: 100px;
+    top: -7px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 64px;
+    /* identical to box height, or 320% */
+    
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    
+    color: black;
+    
+}
+
+.nav:hover{
+    color: #17BB63;
+}
+
+.nav-label :hover{
+    color: #17BB63;
+    
+}
+
+.dropdown-menu{
+    border: none;
+}
+
+
+.dropdown-item{
+    height: 40px;
+    border: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 0px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #0a0a0a;
+    
+}
+
+.btn-login{
+    position: absolute;
+    width: 170px;
+    height: 40px;
+    left: 1150px;
+    top: 109px;
+    background: #FF7D4A;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    border: none;
+}
+
+.btn-login:hover {
+    background-color: #FF6429;
+}
+
+.labelTombol-login{
+    text-align: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 0px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #FFFFFF;
+}
+
+.btn-upload{
+    position: absolute;
+    width: 118px;
+    height: 40px;
+    left: 1130px;
+    top: 140px;
+
+    background: #FF7D4A;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    border: none;
+}
+
+.labelTombol-Upload{
+
+    text-align: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 30px;
+
+    font-feature-settings: 'pnum' on, 'lnum' on;
+
+    color: #FFFFFF;
+}
+
+.nav-item{
+    position: absolute;
+    width: 200px;
+    height: 70px;
+    left: 1100px;
+}
+
+.judul{
+    position: absolute;
+    width: 900px;
+    height: 64px;
+    left: 51px;
+    top: 90px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 64px;
+    /* identical to box height, or 200% */
+
+    font-feature-settings: 'pnum' on, 'lnum' on;
+
+    color: #0A0A0A;
+}
+
+.cpmk{
+    position: absolute;
+    width: auto;
+    height: 64px;
+    left: 51px;
+    top: 354px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 64px;
+    /* identical to box height, or 320% */
+
+    font-feature-settings: 'pnum' on, 'lnum' on;
+
+    color: #000000;
+}
+
+.p-2{
+    position: absolute;
+    width: auto;
+    height: 64px;
+    left: 51px;
+    top: 395px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    /* identical to box height, or 320% */
+
+    font-feature-settings: 'pnum' on, 'lnum' on;
+
+    color: #000000;
+
+}
+.nav-link{
+    color: #000000
+}
+
+.p-1{
+    position: absolute;
+    width: absolute;
+    height: 64px;
+    left: 51px;
+    top: 160px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    /* identical to box height, or 320% */
+
+    font-feature-settings: 'pnum' on, 'lnum' on;
+
+    color: #0A0A0A;
+}
+
+.judul-input{
+    position: absolute;
+    width: absolute;
+    height: 64px;
+    left: 51px;
+    top: 530px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 64px;
+    /* identical to box height, or 320% */
+
+    font-feature-settings: 'pnum' on, 'lnum' on;
+
+    color: #0A0A0A;
+}
+
+/* .inputan{
+    position: absolute;
+    left: 51px;
+    top: 580px;
+    
+} */
+
+.judul-input2{
+    
+    position: absolute;
+    width: absolute;
+    height: 64px;
+    left: 51px;
+    top: 655px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 64px;
+    /* identical to box height, or 320% */
+
+    font-feature-settings: 'pnum' on, 'lnum' on;
+
+    color: #0A0A0A;
+}
+
+.judul-input3{
+    position: absolute;
+    width: absolute;
+    height: 64px;
+    left: 51px;
+    top: 775px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 64px;
+    /* identical to box height, or 320% */
+
+    font-feature-settings: 'pnum' on, 'lnum' on;
+
+    color: #0A0A0A;
+}
+
+.judul-input4{
+    position: absolute;
+    width: absolute;
+    height: 64px;
+    left: 51px;
+    top: 894px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 64px;
+    /* identical to box height, or 320% */
+
+    font-feature-settings: 'pnum' on, 'lnum' on;
+
+    color: #0A0A0A;
+}
+
+.judul-input5{
+    position: absolute;
+    width: absolute;
+    height: 64px;
+    left: 51px;
+    top: 1010px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 64px;
+    /* identical to box height, or 320% */
+
+    font-feature-settings: 'pnum' on, 'lnum' on;
+
+    color: #0A0A0A;
+}
+
+.judul-input6{
+    position: absolute;
+    width: absolute;
+    height: 64px;
+    left: 51px;
+    top: 1127px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 64px;
+    /* identical to box height, or 320% */
+
+    font-feature-settings: 'pnum' on, 'lnum' on;
+
+    color: #0A0A0A;
+}
+
+.btn_pertemuan{
+    background: #17BB63;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    width: 1128px;
+    height: 44px;
+}
+
+
+.card{
+    position: center;
+    width: 760px;
+    height: 130px;
+    left: 600px;
+    top: 275px;
+
+background: #DEDEDE;
+}
+
+.form-label{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 11px;
+    /* identical to box height, or 400% */
+
+    font-feature-settings: 'pnum' on, 'lnum' on;
+
+    color: #0A0A0A;
+}
+
+.form-control{
+    background: #F5F5F5;
+    border-radius: 8px;
+    border: none;
+}
+
+.desk{
+    position: absolute;
+    left: 51px;
+    top: 580px;
+    width: 1000px;
+}
+.desk1{
+    position: absolute;
+    left: 1065px;
+    top: 580px;
+    width: 400px;
+    
+}
+
+.dropdown11{
+    background: #F5F5F5;
+    border-radius: 8px;
+    border: none;
+    color: #0A0A0A;
+    width: 190px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.desk3{
+    position: absolute;
+    left: 1270px;
+    top: 604px;
+    width: 60px;
+}
+.desk4{
+    position: absolute;
+    left: 51px;
+    top: 703px;
+    width: 1266px;
+}
+
+.tambah{
+    background: #F5F5F5;
+    border-radius: 8px;
+    border: none;
+    width: 50px;
+    height: 37px;
+    color: #0A0A0A;
+}
+
+.utama{
+    position: absolute;
+    left: 51px;
+    top: 823px;
+    width: 544px;
+}
+
+.utama1{
+    width: 544px;
+}
+.desk6{
+    position: absolute;
+    left: 615px;
+    top: 848px;
+    width: 50px;
+}
+.pendukung{
+    position: absolute;
+    left: 708px;
+    top: 823px;
+    width: 544px;
+}
+.pendukung1{
+    width: 544px;
+}
+
+.desk7{
+    position: absolute;
+    left: 1270px;
+    top: 848px;
+    width: 50px;
+}
+
+.lunak{
+    position: absolute;
+    left: 51px;
+    top: 943px;
+    width: 544px;
+}
+
+.lunak1{
+    width: 544px;
+}
+.desk8{
+    position: absolute;
+    left: 615px;
+    top: 968px;
+    width: 50px;
+}
+.keras{
+    position: absolute;
+    left: 708px;
+    top: 943px;
+    width: 544px;
+}
+.keras1{
+    width: 544px;
+}
+
+.desk9{
+    position: absolute;
+    left: 1270px;
+    top: 968px;
+    width: 50px;
+}
+.desk10{
+    position: absolute;
+    left: 51px;
+    top: 1058px;
+    width: 1000px;
+}
+
+.desk11{
+    position: absolute;
+    left: 1065px;
+    top: 1058px;
+    width: 190px;
+}
+
+.desk12{
+    position: absolute;
+    left: 1270px;
+    top: 1083px;
+    width: 60px;
+}
+.desk13{
+    position: absolute;
+    left: 51px;
+    top: 1174px;
+    width: 1266px;
+}
+
+.judul-input7{
+    position: absolute;
+    width: absolute;
+    height: 64px;
+    left: 51px;
+    top: 1246px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 64px;
+    /* identical to box height, or 320% */
+
+    font-feature-settings: 'pnum' on, 'lnum' on;
+
+    color: #0A0A0A;
+}
+.desk14{
+    position: absolute;
+    left: 51px;
+    top: 1293px;
+    width: 100px;
+}
+.desk15{
+    position: absolute;
+    left: 168px;
+    top: 1293px;
+    width: 565px;
+}
+.desk16{
+    position: absolute;
+    left: 750px;
+    top: 1293px;
+    width: 565px;
+}
+
+.desk17{
+    position: absolute;
+    left: 51px;
+    top: 1365px;
+    width: 354px;
+}
+.desk18{
+    position: absolute;
+    left: 426px;
+    top: 1365px;
+    width: 354px;
+}
+.desk19{
+    position: absolute;
+    left: 802px;
+    top: 1365px;
+    width: 354px;
+}
+.desk20{
+    position: absolute;
+    left: 1176px;
+    top: 1365px;
+    width: 140px;
+}
+.hapuspertemuan{
+    position: absolute;
+    left: 1173px;
+    top: 1430px;
+    background-color: #C0EDD4;
+    border: #17BB63;
+    color: #0A0A0A;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+}
+.hapuspertemuan:hover{
+    background-color: #C0EDD4;
+    color: #17BB63;
+}
+
+.desk21{
+    position: absolute;
+    left: 51px;
+    top: 1490px;
+    width: 1264px;
+
+}
+.tambahpert{
+    border-radius: 8px;
+    border: none;
+    width: 1264px;
+    height: 37px;
+    
+    border: none;
+    background: #17BB63;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+    color: #ffffff;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+}
+.tambahpert:hover{
+    background-color: #15A858;
+    color: #ffffff;
+}
+
+.datamatkul{
+    position: absolute;
+    left: 51px;
+    top: 150px;
+    width: 1264px;
+    color: #0a0a0a;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.desk22{
+    position: absolute;
+    left: 51px;
+    top: 180px;
+    width: 730px;
+}
+.desk23{
+    position: absolute;
+    left: 800px;
+    top: 180px;
+    width: 200px;
+}
+.desk24{
+    position: absolute;
+    left: 1018px;
+    top: 180px;
+    width: 140px;
+}
+.desk25{
+    position: absolute;
+    left: 1176px;
+    top: 180px;
+    width: 140px;
+}
+
+.desk26{
+    position: absolute;
+    left: 51px;
+    top: 255px;
+    width: 850px;
+}
+
+.desk27{
+    position: absolute;
+    left: 920px;
+    top: 255px;
+    width: 220px;
+}
+.dropdown111{
+    background: #F5F5F5;
+    border-radius: 8px;
+    border: none;
+    color: #0A0A0A;
+    width: 395px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+}
+.teks11{
+    position: absolute;
+    left: 51px;
+    top: 376px;
+    width: 1100px;
+}
+
+.datamatkul1{
+    position: absolute;
+    left: 51px;
+    top: 340px;
+    width: 1264px;
+    color: #0a0a0a;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+}
+.desk28{
+    position: absolute;
+    left: 51px;
+    top: 410px;
+    width: 1000px;
+}
+
+.desk29{
+    position: absolute;
+    left: 1065px;
+    top: 410px;
+    width: 190px;
+}
+
+.desk30{
+    position: absolute;
+    left: 1270px;
+    top: 435px;
+    width: 60px;
+}
+.judul-input8{
+    position: absolute;
+    width: absolute;
+    height: 64px;
+    left: 51px;
+    top: 130px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 64px;
+    /* identical to box height, or 320% */
+
+    font-feature-settings: 'pnum' on, 'lnum' on;
+
+    color: #0A0A0A;
+}
+.judul-input9{
+    position: absolute;
+    width: absolute;
+    height: 64px;
+    left: 51px;
+    top: 320px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 64px;
+    /* identical to box height, or 320% */
+
+    font-feature-settings: 'pnum' on, 'lnum' on;
+
+    color: #0A0A0A;
+}
