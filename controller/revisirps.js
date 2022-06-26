@@ -1,4 +1,4 @@
-// 10. 
+// 10.
 // Dosen dapat melakukan revisi RPS lama menjadi RPS versi berikutnya.
 
 // - ----Revisi hanya dapat dilakukan jika RPS sebelumnya sudah ada

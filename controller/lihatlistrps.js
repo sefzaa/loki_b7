@@ -1,4 +1,4 @@
-// 6. 
+// 6.
 // Dosen dapat melihat list RPS mata kuliah-nya
 
 // ------ Fitur ini hanya dapat digunakan oleh dosen yang telah login

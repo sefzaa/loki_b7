@@ -513,3 +513,91 @@
     font-feature-settings: 'pnum' on, 'lnum' on;
     color: #FFFFFF;
 }
+.rpssaya{
+    position: absolute;
+    width: 600px;
+    height: 64px;
+    left: 51px;
+    top: 100px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 0px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #0A0A0A;
+}
+
+.hasil123{
+    position: absolute;
+    width: 44%;
+    height: 150px;
+    left: 51px;
+    top: 150px;
+    background: #F5F5F5;
+    border-radius: 8px;
+}
+
+.btn-lihat22{
+    position: absolute;
+    width: 118px;
+    height: 40px;
+    left: 460px;
+    top: 90px;
+    background: #17BB63;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    border: none;
+}
+
+.btn-lihat22:hover {
+    background-color: #15A858;
+}
+.namamatkul11{
+    position: absolute;
+    width: 600px;
+    height: 36px;
+    left: 29px;
+    top: 34px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 0;
+    color: #0A0A0A;
+}
+
+.keterangan11{
+    position: absolute;
+    height: 36px;
+    left: 29px;
+    top: 68px;
+    width: 600px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 0;
+    letter-spacing: 0.05em;
+    color: #17BB63;
+}
+
+.hasil1234{
+    position: absolute;
+    width: 44%;
+    height: 150px;
+    left: 710px;
+    top: 150px;
+    background: #F5F5F5;
+    border-radius: 8px;
+}
+.hasil12345{
+    position: absolute;
+    width: 44%;
+    height: 150px;
+    left: 51px;
+    top: 350px;
+    background: #F5F5F5;
+    border-radius: 8px;
+}
