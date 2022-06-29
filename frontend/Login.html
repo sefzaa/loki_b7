@@ -5,18 +5,20 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>RPS Unand</title>
-  <link rel="stylesheet" href="/frontend/css/loginn.css">
+  <link rel="stylesheet" href="./css/loginn.css">
 </head>
 <body>
   <div>
-    <img class="logo" src="/frontend/css/assets/logo2.svg" alt="">
+    <img class="logo" src="./css/assets/logo2.svg" alt="">
     <p class="tekslogin">Login</p>
-    <input type="email" class="form-control placeholder" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="NIP atau username">
-    <input type="password" class="form-control2 placeholder" id="exampleInputPassword1" placeholder="Password">
-    <button type="submit" class="btn-login">Login</button>
+    <form method="post" action="/login">
+      <input type="text" name="email" class="form-control placeholder" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="NIP atau username">
+      <input type="password" name="password" class="form-control2 placeholder" id="exampleInputPassword1" placeholder="Password">
+      <button type="submit" class="btn-login">Login</button>
+    </form>
   </div>
   <div>
-    <img class="gambarlogin" src="/frontend/css/assets/gambar.png" alt="">
+    <img class="gambarlogin" src="./css/assets/gambar.png" alt="">
   </div>
   
 </body>

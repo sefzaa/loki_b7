@@ -93,7 +93,6 @@
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
-    line-height: 0px;
     font-feature-settings: 'pnum' on, 'lnum' on;
     color: #FFFFFF;
 }
@@ -509,7 +508,6 @@
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
-    line-height: 0px;
     font-feature-settings: 'pnum' on, 'lnum' on;
     color: #FFFFFF;
 }
