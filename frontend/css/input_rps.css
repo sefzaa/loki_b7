@@ -77,23 +77,23 @@ body{
     
 }
 
-.btn-login{
+.btn-download{
     position: absolute;
     width: 170px;
     height: 40px;
     left: 1150px;
     top: 109px;
-    background: #FF7D4A;
+    background: #17BB63;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
     border: none;
 }
 
-.btn-login:hover {
-    background-color: #FF6429;
+.btn-download:hover {
+    background-color: #15A858;
 }
 
-.labelTombol-login{
+.labelTombol-download{
     text-align: center;
     font-family: 'Poppins';
     font-style: normal;
@@ -746,4 +746,158 @@ background: #DEDEDE;
     font-feature-settings: 'pnum' on, 'lnum' on;
 
     color: #0A0A0A;
+}
+
+.teksbiasa{
+    position: absolute;
+    left: 51px;
+    width: 1266px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    /* identical to box height, or 320% */
+
+    font-feature-settings: 'pnum' on, 'lnum' on;
+
+    color: #000000;
+}
+.teksbold{
+    position: absolute;
+    left: 51px;
+    width: 1266px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 30px;
+    /* identical to box height, or 320% */
+
+    font-feature-settings: 'pnum' on, 'lnum' on;
+
+    color: #000000;
+}
+
+.cpmk1{
+    top: 530px;
+}
+
+.cpmk2{
+    top: 578px;
+}
+.materi{
+    top: 620px;
+}
+
+.materi1{
+    top: 670px;
+}
+
+.pustaka{
+    top: 710px;
+}
+
+.pustaka1{
+    top: 760px;
+}.pustaka2{
+    top: 785px;
+}.pustaka3{
+    top: 820px;
+}.pustaka4{
+    top: 850px;
+}
+.media{
+    top: 890px;
+}
+.media1{
+    top: 940px;
+}.media2{
+    top: 965px;
+}.media3{
+    top: 1000px;
+}.media4{
+    top: 1025px;
+}
+
+.asesmen{
+    top: 1063px;
+}
+.asesmen1{
+    top: 1110px;
+}
+
+.matkulsyarat{
+    top: 1160px;
+}
+.matkulsyarat1{
+    top: 1206px;
+}
+
+.metode1{
+    position: absolute;
+    left: 51px;
+    width: 1266px;
+    top: 1300px;
+}
+.metode2{
+    position: absolute;
+    left: 51px;
+    width: 1266px;
+    top: 1325px;
+}
+
+.metode3{
+    position: absolute;
+    left: 51px;
+    width: 1266px;
+    top: 1350px;
+}
+
+.metode4{
+    position: absolute;
+    left: 51px;
+    width: 1266px;
+    top: 1376px;
+}
+
+.metode5{
+    position: absolute;
+    left: 51px;
+    width: 1266px;
+    top: 1400px;
+}
+
+.metode6{
+    position: absolute;
+    left: 51px;
+    width: 1266px;
+    top: 1425px;
+}
+
+.btn-login{
+    position: absolute;
+    width: 118px;
+    height: 40px;
+    left: 1230px;
+    top: 14px;
+    background: #FF7D4A;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    border: none;
+}
+
+.btn-login:hover {
+    background-color: #FF6429;
+}
+
+.labelTombol-login{
+    text-align: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 0px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #FFFFFF;
 }
