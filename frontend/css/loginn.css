@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+*{
+    overflow: hidden;
+}
+
+.logo{
+    position: absolute;
+    left: 30%;
+    top: 13%;
+    width: 88px;
+}
+
+.tekslogin{
+    position: absolute;
+    left: 410px;
+    top: 160px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    color: #0a0a0a;
+}
+
+.gambarlogin{
+    position: absolute;
+    width: auto;
+    height: 100%;
+    left: 66%;
+    top: 0px;  
+}
+
+.form-control{
+    position: absolute;
+    width: 450px;
+    height: 43px;
+    top: 310px;
+    left: 215px;
+    border-radius: 8px;
+    border: none;
+    background: #F5F5F5;
+}
+.form-control2{
+    position: absolute;
+    width: 450px;
+    height: 43px;
+    top: 380px;
+    left: 215px;
+    border-radius: 8px;
+    border: none;
+    background: #F5F5F5;
+}
+
+.placeholder{
+    padding-left: 10px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 64px;
+}
+.btn-login{
+    position: absolute;
+    width: 450px;
+    height: 43px;
+    top: 500px;
+    left: 215px;
+    border-radius: 8px;
+    border: none;
+    background: #17BB63;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    color: #ffffff;
+}
+.btn-login:hover{
+    background-color: #15A858;
+}
