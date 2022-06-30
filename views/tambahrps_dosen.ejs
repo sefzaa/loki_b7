@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="/views/css/input_rps.css">
+    
+    <title>RPS Unand</title>
+</head>
+<body class="daftar bg">
+    <nav class="navbar">
+        <div class="container-fluid">
+            <a class="logo" href="#">
+                <img src="/views/css/assets/logo.png" alt="">
+            </a>
+          <div>
+              <ul class="nav">
+                  <li class="nav-label">
+                      <a class="nav-link active" aria-current="page" href="rpssaya_dosen">RPS Saya</a>
+                  </li>
+                  <li class="nav-label">
+                      <a class="nav-link" href="pencarian_dosen">Pencarian</a>
+                  </li>
+                  <form class="d-flex" role="search">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          NamaDosen
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="#">Log Out</a></li>
+                        </ul>
+                      </li>
+                  </form>
+              </ul>
+              
+       </div>
+   </nav>
+   <div>
+    <!-- <p class="hasilpencarian4">RPS Pemrograman Web</p> -->
+    <!-- <div class="teks">
+      <div class="baris1">
+        <p>Nama mata kuliah</p>
+        <p>Pemrograman web</p>
+      </div>
+      <div class="baris2">
+        <p>Kode</p>
+        <p>JSI0000</p>
+      </div>
+      <div class="baris3">
+        <p>Semester</p>
+        <p>4</p>
+      </div>
+      <div class="baris4">
+        <p>SKS</p>
+        <p>3</p>
+      </div>
+      <div class="baris5">
+        <p>Dosen pengembang RPS</p>
+        <p>Husnil Kamil, M.T</p>
+      </div>
+      <div class="baris6">
+        <p>Deskripsi mata kuliah</p>
+        <p>Mari belajar pemrograman web</p>
+      </div>
+      <p>Capaian pembelajaran program studi</p>
+      <div>
+        <p>CP-1</p>
+        <p>Capaian pembelajaran 1</p>
+      </div>
+    </div>
+   </div> -->
+   <button class="btn-download labelTombol-download ">Upload RPS</button>
+    <p class="judul">RPS Pemrograman Web</p>
+    <p class="p-1">
+        Nama mata kuliah : Pemrograman web<br/>
+        Kode             : JSI0000<br/>
+        Semester        : 4<br/>
+        SKS : 3<br/>
+        Dosen pengembang RPS : Husnil Kamil, M.T<br/>
+        Deskripsi mata kuliah : Mari belajar pemrograman web
+    </p>
+        
+   
+    <p class="cpmk">Capaian pembelajaran program studi</p>
+    <p class="p-2">
+      CP-1    Capaian pembelajaran 1<br/>
+      CP-3    Capaian pembelajaran 3<br/>
+      CP-5    Capaian pembelajaran 5<br/>
+      CP-7    Capaian pembelajaran 7<br/>
+    </p>
+
+    <p class="judul-input">CP mata kuliah</p>
+    <form class="inputan">
+      <div class="form-matkul">
+        <div class="desk">
+          <label for="deskripsi" class="form-label">Deskripsi</label>
+          <input type="text" class="form-control" id="deskripsi">
+        </div>
+        <div class="desk1">
+          <label for="inputKodeCP" class="form-label">Kode CP Program Studi</label>
+          <div class="dropdownkodecpl">
+            <button class="btn btn-secondary dropdown-toggle dropdown11 " type="button" id="inputKodeCP" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Pilih kode CPL
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </div>
+        </div>
+        <div class="desk3">
+          <button type="button" class="btn btn-primary tambah ">+</button>
+        </div>
+      </div>
+      <p class="judul-input2">Materi Pembelajaran/Pokok Bahasan</p>
+      <div>
+        <div class="desk4">
+          <label for="deskripsi2" class="form-label">Deskripsi</label>
+          <input type="text" class="form-control" id="deskripsi2">
+        </div>
+      </div>
+         
+      <p class="judul-input3">Pustaka</p>
+      <div>
+        <div class="utama">
+          <label for="utama" class="form-label">Utama</label>
+          <input type="text" class="form-control utama1" id="utama">
+        </div>
+        <div class="desk6">
+          <button type="button" class="btn btn-primary tambah ">+</button>
+        </div>
+      </div>
+
+    <div>
+      <div class="pendukung">
+        <label for="pendukung" class="form-label">Pendukung</label>
+        <input type="text" class="form-control pendukung1" id="pendukung">
+      </div>
+      <div class="desk7">
+        <button type="button" class="btn btn-primary tambah ">+</button>
+      </div>
+    </div>
+
+    <p class="judul-input4">Media Pembelajaran</p>
+      <div>
+        <div class="lunak">
+          <label for="utama" class="form-label">Perangkat lunak</label>
+          <input type="text" class="form-control lunak1" id="utama">
+        </div>
+        <div class="desk8">
+          <button type="button" class="btn btn-primary tambah ">+</button>
+        </div>
+      </div>
+      <div>
+        <div class="keras">
+          <label for="pendukung" class="form-label">Perangkat keras</label>
+          <input type="text" class="form-control keras1" id="pendukung">
+        </div>
+        <div class="desk9">
+          <button type="button" class="btn btn-primary tambah ">+</button>
+        </div>
+      </div>
+
+    <p class="judul-input5">Assessment</p>
+    <div class="desk10">
+      <label for="deskripsi1" class="form-label">Deskripsi</label>
+      <input type="text" class="form-control" id="deskripsi1">
+    </div>
+    <div class="desk11">
+      <label for="assessment" class="form-label">Persentase (%)</label>
+      <input type="text" class="form-control" id="assessment">
+    </div>
+    <div class="desk12">
+      <button type="button" class="btn btn-primary tambah ">+</button>
+    </div>
+
+    <p class="judul-input6">Mata kuliah syarat</p>
+      <div>
+        <div class="desk13">
+          <label for="deskripsi2" class="form-label">Deskripsi</label>
+          <input type="text" class="form-control" id="deskripsi2">
+        </div>
+      </div>
+
+      <p class="judul-input7">Metode pelaksanaan perkuliahan dan alokasi waktu</p>
+      <div>
+        <div class="desk14">
+          <label for="deskripsi2" class="form-label">Mg ke-</label>
+          <input type="text" class="form-control" id="deskripsi2">
+        </div>
+        <div class="desk15">
+          <label for="deskripsi2" class="form-label">Kemampuan akhir yg
+            diharapkan</label>
+          <input type="text" class="form-control" id="deskripsi2">
+        </div>
+        <div class="desk16">
+          <label for="deskripsi2" class="form-label">Bahan Kajian (Materi Ajar) dan Referensi</label>
+          <input type="text" class="form-control" id="deskripsi2">
+        </div>
+      </div>
+      <div>
+        <div class="desk17">
+          <label for="deskripsi2" class="form-label">Metode Pembelajaran dan Alokasi Waktu</label>
+          <input type="text" class="form-control" id="deskripsi2">
+        </div>
+        <div class="desk18">
+          <label for="deskripsi2" class="form-label">Pengalaman Belajar Mahasiswa</label>
+          <input type="text" class="form-control" id="deskripsi2">
+        </div>
+        <div class="desk19">
+          <label for="deskripsi2" class="form-label">Kriteria (Indikator) Penilaian</label>
+          <input type="text" class="form-control" id="deskripsi2">
+        </div>
+        <div class="desk20">
+          <label for="deskripsi2" class="form-label">Bobot Penilan (%)</label>
+          <input type="text" class="form-control" id="deskripsi2">
+        </div>
+      </div>
+      <button class="btn btn-primary hapuspertemuan teks" type="submit">Hapus pertemuan</button>
+      <div class="desk21">
+        <button type="button" class="btn btn-primary tambahpert ">Tambah minggu pertemuan</button>
+      </div>
+      </form>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+
+.container-fluid{
+    position: absolute;
+    width: 100%;
+    height: 70px;
+    left: 0px;
+    top: 0px;
+    background: #ffffff;
+}
+
+
+.logo{
+    position: absolute;
+    width: 66.95px;
+    height: 49px;
+    left: 15px;
+    top: 11px;
+}
+
+.nav{
+    position: absolute;
+    width: 800px;
+    height: 70px;
+    left: 100px;
+    top: -7px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 64px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #17BB63;
+}
+
+.nav-item .active{
+    color: #17BB63 !important;
+}
+
+.input{
+    position: absolute;
+    width: 636px;
+    height: 52px;
+    left: 51px;
+    top: 185px;
+background: #F5F5F5;
+}
+
+.kecil
+{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 150%;
+}
+
+.kecilkali
+{
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 150%;
+color: #FFFFFF;
+}
+
+.kotak
+{
+position: absolute;
+width: 204px;
+height: 45px;
+left: 1024px;
+top: 23px;
+}
+
+.daftar
+{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 32px;
+}
+
+.search
+{
+width: 96px;
+height: 50px;
+left: 650px;
+top: 185px;  
+}
+
+.inputan
+{
+width: 636px;
+height: 52px;
+left: 300px;
+top: 172px;
+}
+
+.accordion-item,.accordion-header
+{
+    background-color: transparent !important;
+}
+
+.accordion-item
+{
+    box-shadow: 0 2px 25px 0 rgba(110, 130, 200, .18);
+}
+.accordion-button
+{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 64px;
+}
+
+.nav-link
+{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 64px;
+}

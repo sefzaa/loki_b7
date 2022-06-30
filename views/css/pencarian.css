@@ -1,0 +1,604 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+.container-fluid{
+    position: absolute;
+    width: 100%;
+    height: 70px;
+    left: 0px;
+    top: 0px;
+    background: #ffffff;
+}
+
+.logo{
+    position: absolute;
+    width: 66.95px;
+    height: 49px;
+    left: 15px;
+    top: 11px;
+}
+
+.nav{
+    position: absolute;
+    width: 800px;
+    height: 70px;
+    left: 100px;
+    top: -7px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 64px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #17BB63;
+}
+.nav:hover{
+    color: #17BB63;
+}
+.nav-link{
+    color: #0A0A0A;
+}
+.nav-label:focus{
+    color: #17BB63;
+}
+
+.nav-item{
+    position: absolute;
+    width: 200px;
+    height: 70px;
+    left: 1000px;
+}
+.dropdown-menu{
+    border: none;
+    width: auto;
+    height: 40px; 
+}
+
+
+.dropdown-item{
+    height: 40px;
+    border: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 0px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #0a0a0a;
+    
+}
+
+.nav-label :hover{
+    color: #17BB63;
+}
+
+.btn-login{
+    position: absolute;
+    width: 118px;
+    height: 40px;
+    left: 1230px;
+    top: 14px;
+    background: #FF7D4A;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    border: none;
+}
+
+.btn-login:hover {
+    background-color: #FF6429;
+}
+
+.labelTombol-login{
+    text-align: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 0px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #FFFFFF;
+}
+
+.gambar{
+    position: absolute;
+    width: 100%;
+    height: 240px;
+    left: 0px;
+    top: 70px;
+}
+
+.selamatdatang{
+    position: absolute;
+    width: 100%;
+    height: 64px;
+    top: 90px;
+    text-align: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 64px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #0A0A0A;
+}
+
+.website{
+    position: absolute;
+    width: 100%;
+    height: 64px;
+    top: 147px;
+    text-align: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 64px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #FFFFFF;
+}
+
+.form-control{
+    position: absolute;
+    width: 709px;
+    height: 48px;
+    top: 226px;
+    left: 274px;
+    border-radius: 8px;
+    border: none;
+    background: #F5F5F5;
+}
+.form-control2{
+    position: absolute;
+    width: 709px;
+    height: 48px;
+    top: 125px;
+    left: 81px;
+    border-radius: 8px;
+    border: none;
+    background: #F5F5F5;
+}
+
+.placeholder{
+    padding-left: 10px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 64px;
+}
+
+.btn-cari{
+    position: absolute;
+    width: 96px;
+    height: 48px;
+    left: 990px;
+    top: 226px;
+    border: none;
+    background: #17BB63;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+.btn-cari2{
+    position: absolute;
+    width: 96px;
+    height: 48px;
+    left: 797px;
+    top: 125px;
+    border: none;
+    background: #17BB63;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.btn-cari:hover{
+    background-color: #15A858;
+}
+.btn-cari2:hover{
+    background-color: #15A858;
+}
+.hasilpencarian{
+    position: absolute;
+    width: 600px;
+    height: 64px;
+    left: 51px;
+    top: 350px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 0px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #0A0A0A;
+}
+.hasilpencarian2{
+    position: absolute;
+    width: 600px;
+    height: 64px;
+    left: 51px;
+    top: 100px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 0px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #0A0A0A;
+}
+.hasilpencarian3{
+    position: absolute;
+    width: 256px;
+    height: 64px;
+    left: 51px;
+    top: 240px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 0px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #0A0A0A;
+}
+.hasilpencarian4{
+    position: absolute;
+    width: 600px;
+    height: 64px;
+    left: 51px;
+    top: 100px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 0px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #0A0A0A;
+}
+.hasil{
+    position: absolute;
+    width: 92%;
+    height: 82px;
+    left: 51px;
+    top: 392px;
+    background: #78D8A4;
+    border-radius: 8px;
+}
+
+.namamatkul{
+    position: absolute;
+    width: 600px;
+    height: 36px;
+    left: 24px;
+    top: 25px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 0;
+    color: #0A0A0A;
+}
+
+.keterangan{
+    position: absolute;
+    height: 36px;
+    left: 24px;
+    top: 55px;
+    width: 600px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 0;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+}
+
+.kodematkul{
+    position: absolute;
+    width: 100px;
+    left: 24px;
+    top: 58px;
+}
+
+.semester{
+    position: absolute;
+    width: 100px;
+    left: 144px;
+    top: 58px;
+}
+
+.sks{
+    position: absolute;
+    width: 100px;
+    left: 290px;
+    top: 58px;
+}
+
+.garis1{
+    position: absolute;
+    top: 47px;
+    left: 120px;
+}
+.garis2{
+    position: absolute;
+    top: 47px;
+    left: 266px;
+}
+
+.btn-lihat{
+    position: absolute;
+    width: 118px;
+    height: 40px;
+    left: 1120px;
+    top: 20px;
+    background: #17BB63;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    border: none;
+}
+
+.btn-lihat:hover {
+    background-color: #15A858;
+}
+
+.labelTombol-lihat{
+    text-align: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 0px;
+    text-align: center;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #FFFFFF;
+}
+
+.nav-item{
+    position: absolute;
+    width: auto;
+    height: 30px;
+    left: 1200px;
+    top: 30px;
+    text-align: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 0px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #0A0A0A;
+}
+
+.dropdown-item{
+    text-align: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #0A0A0A;
+}
+
+.dropdown-item:hover{
+    color: #17BB63;
+}
+
+.accordion{
+    position: absolute;
+    left: 64px;
+    top: 270px;
+    width: 89%;
+}
+/* .accordion-item{
+    background-color: #A0F3C6;
+} */
+
+.accordion-button{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 0;
+    color: #0A0A0A;
+    background-color: #FF7D4A;
+}
+
+.accordion-button:focus{
+    background-color: #FF7D4A;
+    color: #0A0A0A;
+}
+.namamatkul2{
+    margin-top: -10px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    color: #0A0A0A;
+    
+}
+
+.keterangan2{
+    margin-top: -10px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    color: #0a0a0a;
+}
+
+.accordion{
+    position: absolute;
+    left: 80px;
+    
+}
+.accordion-button {
+    margin-bottom: 15px;
+    margin-top: 15px;
+    border-radius: 8px;
+ }
+
+ .accordion-item{
+    border: none;
+ }
+ .accordion-body{
+    background-color: #BBF7D6;
+    height: 82px;
+    border-radius: 8px;
+ }
+
+ .tombol{
+    width: 118px;
+    height: 40px;
+    background: #17BB63;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    border: none;
+    margin-left: 20px;
+    text-align: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    text-align: center;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #FFFFFF;
+
+}
+
+.tombol:hover {
+    background-color: #15A858;
+}
+
+.teks{
+    position: absolute;
+    left: 80px;
+    top: 150px;
+    width: 89%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 0;
+    color: #0A0A0A;
+}
+
+.baris1{
+    position: absolute;
+    left: 80px;
+    margin-bottom: 10px;
+}
+
+.btn-login1{
+    position: absolute;
+    width: 230px;
+    height: 40px;
+    left: 1050px;
+    top: 224px;
+    background: #17BB63;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    border: none;
+}
+
+.btn-login1:hover {
+    background-color: #15A858;
+}
+
+.labelTombol-login1{
+    text-align: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 0px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #FFFFFF;
+}
+.rpssaya{
+    position: absolute;
+    width: 600px;
+    height: 64px;
+    left: 51px;
+    top: 100px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 0px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #0A0A0A;
+}
+
+.hasil123{
+    position: absolute;
+    width: 44%;
+    height: 150px;
+    left: 51px;
+    top: 150px;
+    background: #F5F5F5;
+    border-radius: 8px;
+}
+
+.btn-lihat22{
+    position: absolute;
+    width: 118px;
+    height: 40px;
+    left: 460px;
+    top: 90px;
+    background: #17BB63;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    border: none;
+}
+
+.btn-lihat22:hover {
+    background-color: #15A858;
+}
+.namamatkul11{
+    position: absolute;
+    width: 600px;
+    height: 36px;
+    left: 29px;
+    top: 34px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 0;
+    color: #0A0A0A;
+}
+
+.keterangan11{
+    position: absolute;
+    height: 36px;
+    left: 29px;
+    top: 68px;
+    width: 600px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 0;
+    letter-spacing: 0.05em;
+    color: #17BB63;
+}
+
+.hasil1234{
+    position: absolute;
+    width: 44%;
+    height: 150px;
+    left: 710px;
+    top: 150px;
+    background: #F5F5F5;
+    border-radius: 8px;
+}
+.hasil12345{
+    position: absolute;
+    width: 44%;
+    height: 150px;
+    left: 51px;
+    top: 350px;
+    background: #F5F5F5;
+    border-radius: 8px;
+}
+
