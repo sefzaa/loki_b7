@@ -22,12 +22,6 @@ app.get("*", checkUser)
 app.get("/", (req, res) => {
   res.render("pencarian")
 });
-app.get("/myprofile", (req, res) => {
-  res.render("myprofile")
-});
-app.get("/datatable", (req, res) => {
-  res.render("datatabletemplate")
-});
 
 const dosenRouter = require("./router/dosen")
 app.use("/dosen", isDosen,dosenRouter)

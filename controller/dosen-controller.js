@@ -17,7 +17,7 @@ controller.listmatkul = async (req, res) => {
         type: QueryTypes.SELECT
     }
 )
-    res.render("dosendashboard", {matkul})   
+    res.render("rpssaya_dosen", {matkul})   
 }
 
 controller.detailmatkul = async (req, res) => {
