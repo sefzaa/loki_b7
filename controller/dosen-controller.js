@@ -1,6 +1,6 @@
 const model = require('../models/indexmodel')
 const { Op, QueryTypes  } = require("sequelize");
-const sequelize = model.dbconfig
+const sequelize = require("../config/database.js");
 const jwt = require('jsonwebtoken')
 const controller = {}
 
