@@ -24,32 +24,13 @@ module.exports.home = (req, res) => {
   res.redirect("/auth/login");
 };
 
-module.exports.register_get = (req, res) => {
-  res.render("register");
-};
+
 
 module.exports.login_get = (req, res) => {
-  res.render("login");
+  res.render("Login");
 };
 
-module.exports.register_post = async (req, res) => {
-  const { name, email, password, password2, type } = req.body;
-  if (password !== password2) return res.status(400).json({ msg: "Password dan Confirm Password tidak cocok" });
-  const salt = await bcrypt.genSalt();
-  const hashPass = await bcrypt.hash(password, salt);
 
-  try {
-    await User.create({
-      name: name,
-      email: email,
-      password: hashPass,
-      type: type,
-    });
-    res.status(201).redirect("/auth/login");
-  } catch (err) {
-    console.log(err)
-  }
-};
 
 module.exports.login_post = async (req, res) => {
 

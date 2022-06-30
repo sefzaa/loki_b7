@@ -13,12 +13,14 @@ app.use(cookieParser())
 
 app.set("view engine", "ejs")
 app.use(express.static("public"))
+app.use('/views', express.static('views'));
+
 
 
 app.get("*", checkUser)
 
 app.get("/", (req, res) => {
-  res.render("index")
+  res.render("lihatRps_mhs")
 });
 app.get("/myprofile", (req, res) => {
   res.render("myprofile")

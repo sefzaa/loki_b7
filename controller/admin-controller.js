@@ -1,4 +1,4 @@
-const model = require('../models/index')
+const model = require('../models/indexmodel')
 const { Op, QueryTypes } = require("sequelize")
 const sequelize = require('../config/database')
 const controller = {}
