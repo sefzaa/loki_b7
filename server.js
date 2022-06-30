@@ -47,6 +47,10 @@ app.get('/tambahmatakuliah_admin', (req, res) => {
 app.get('/editmatakuliah_admin', (req, res) => {
   res.render('editmatakuliah_admin');
 });
+app.get('/lihatRps_admin', (req, res) => {
+  res.render('lihatRps_admin');
+});
+
 
 const dosenRouter = require('./router/dosen');
 app.use('/dosen', isDosen, dosenRouter);
