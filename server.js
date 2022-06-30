@@ -20,7 +20,7 @@ app.use('/views', express.static('views'));
 app.get("*", checkUser)
 
 app.get("/", (req, res) => {
-  res.render("lihatRps_mhs")
+  res.render("pencarian")
 });
 app.get("/myprofile", (req, res) => {
   res.render("myprofile")

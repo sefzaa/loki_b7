@@ -21,7 +21,7 @@ const createToken = (email) => {
 };
 
 module.exports.home = (req, res) => {
-  res.redirect("/auth/login");
+  res.redirect("/auth/Login");
 };
 
 

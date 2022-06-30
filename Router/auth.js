@@ -1,6 +1,6 @@
 const express = require("express");
 const router = express();
-const authController = require("../controller/authContollers");
+const authController = require("../controller/authControllers");
 
 router.set("view engine", "ejs");
 router.use(express.static("public"));
